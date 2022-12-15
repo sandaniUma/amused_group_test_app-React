@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+  padding: 40px 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.fixedContainer {
+  position: fixed;
+  right: 0;
+  top: 0px;
+  left: 0;
+  z-index: 1030;
+  background: white;
+  height: 5rem !important;
+  padding-top: 20px;
+}
+
+.navigationBarHeader {
+  display: flex;
+  justify-content: end !important;
+}
+
+.siteLogoHeader {
+  display: flex;
+  justify-content: flex-start !important;
+}
+
+.cocktailImageInList {
+  width: 100%;
+  height: 40rem;
+}
+
+.commonBreakElement {
+  margin-top: 2rem;
+}
+
+.helightCard:hover {
+  cursor: pointer;
+  box-shadow: 4px 3px 25px -9px #535353;
+}
+
+.cardBodyCocktail {
+  height: 15rem;
+  overflow-y: auto;
+}
+
+.overFlowAutoClass {
+  max-height: 30rem;
+  overflow-y: auto;
+}
+
+.fontStylesInCardTitle {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.fontStylesInSradText {
+  font-family: monospace;
+}
+
+.favImageInTable {
+  width: 5rem;
+  height: 5rem;
+}
+
+.tableDataInFav {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tableDataInFavNoRec {
+  vertical-align: middle;
+  text-align: right;
+}
+
+.searchAndFilterSection {
+  margin-top: 5rem;
+}
+
+.marginTopInMobile {
+  margin-top: 0px !important;
+}
+
+.textAllignFilterSection {
+  text-align: left;
+}
+
+.verticalCenter {
+  margin-top: -5px;
+}
+
+.filterContainer {
+  box-shadow: -2px 1px 28px -12px grey;
+}
+
+@media only screen and (max-width: 700px) {
+  .navigationBarHeader {
+    justify-content: center !important;
+  }
+  .siteLogoHeader {
+    justify-content: center !important;
+  }
+  .fixedContainer {
+    height: 7rem !important;
+  }
+  .marginTopInMobile {
+    margin-top: 18px !important;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

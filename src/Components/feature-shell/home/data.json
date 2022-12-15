@@ -1,0 +1,145 @@
+{
+    "alcoholicArray": [
+        {
+            "key": 0,
+            "text": "Select",
+            "value": ""
+        },
+        {
+            "key": 1,
+            "text": "Alcoholic",
+            "value": "Alcoholic"
+        },
+        {
+            "key": 2,
+            "text": "Non Alcoholic",
+            "value": "Non_Alcoholic"
+        }
+    ],
+    "categoryArray": [
+        {
+            "key": 0,
+            "text": "Select",
+            "value": ""
+        },
+        {
+            "key": 1,
+            "text": "Ordinary Drink",
+            "value": "Ordinary_Drink"
+        },
+        {
+            "key": 2,
+            "text": "Cocktail",
+            "value": "Cocktail"
+        },
+        {
+            "key": 3,
+            "text": "Shot",
+            "value": "Shot"
+        },
+        {
+            "key": 4,
+            "text": "Soft Drink",
+            "value": "Soft_Drink"
+        },
+        {
+            "key": 5,
+            "text": "Coffee / Tea",
+            "value": "Coffee / Tea"
+        },
+        {
+            "key": 6,
+            "text": "Punch / Party Drink",
+            "value": "Punch / Party Drink"
+        },
+        {
+            "key": 7,
+            "text": "Cocoa",
+            "value": "Cocoa"
+        },
+        {
+            "key": 8,
+            "text": "Homemade Liqueur",
+            "value": "Homemade Liqueur"
+        }
+    ],
+    "glassArray": [
+        {
+            "key": 0,
+            "text": "Select",
+            "value": ""
+        },
+        {
+            "key": 1,
+            "text": "Punch bowl",
+            "value": "Punch bowl"
+        },
+        {
+            "key": 2,
+            "text": "Martini Glass",
+            "value": "Martini Glass"
+        },
+        {
+            "key": 3,
+            "text": "Collins Glass",
+            "value": "Collins Glass"
+        },
+        {
+            "key": 4,
+            "text": "Highball Glass",
+            "value": "Highball Glass"
+        },
+        {
+            "key": 5,
+            "text": "Cocktail glass",
+            "value": "Cocktail glass"
+        },
+        {
+            "key": 6,
+            "text": "Coffee Mug",
+            "value": "Coffee Mug"
+        },
+        {
+            "key": 7,
+            "text": "Shot glass",
+            "value": "Shot glass"
+        },
+        {
+            "key": 8,
+            "text": "Champagne flute",
+            "value": "Champagne flute"
+        },
+        {
+            "key": 9,
+            "text": "Champagne Flute",
+            "value": "Champagne Flute"
+        },
+        {
+            "key": 10,
+            "text": "Wine Glass",
+            "value": "Wine Glass"
+        }
+    ],
+    "columns": [
+        {
+            "dataField": "image",
+            "text": ""
+        },
+        {
+            "dataField": "name",
+            "text": "Name"
+        },
+        {
+            "dataField": "category",
+            "text": "Category"
+        },
+        {
+            "dataField": "alcoholic",
+            "text": "Alcoholic"
+        },
+        {
+            "dataField": "action",
+            "text": "Action"
+        }
+      ]
+}
